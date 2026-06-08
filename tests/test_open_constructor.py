@@ -7,7 +7,7 @@ import locators as loc
 class TestOpenConstructor:
     @pytest.mark.parametrize('locator_name', [
         'PA_LOGO',
-        'PA_DESIGNER_BUTTON'
+        'PA_CONSTRUCTOR_BUTTON'
     ],
     ids=[
         "pass_logo", 

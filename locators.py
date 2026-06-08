@@ -25,12 +25,12 @@ ORDER_BUTTON = (By.XPATH,'.//button[contains(text(),"Оформить заказ
 PASSWORD_RECOVERY_LOGIN_BUTTON = (By.XPATH,'.//a[contains(text(),"Войти")]') # Кнопка "Войти"  на форму авторизации
 
 # Страница личного кабинета
-PA_LOGO = (By.CLASS_NAME,'AppHeader_header__logo__2D0X2') # Логотип приложения 
-PA_DESIGNER_BUTTON = (By.XPATH,'.//p[contains(text(),"Конструктор")]/parent::a') # Кнопка "Конструктор"
+PA_LOGO = (By.CLASS_NAME,'.//div[contains(@class, "logo")]/a') # Логотип приложения 
+PA_CONSTRUCTOR_BUTTON = (By.XPATH,'.//p[text()="Конструктор"]') # Кнопка "Конструктор"
 LOGOUT_BUTTON = (By.XPATH,'//button[contains(text(),"Выход")]') # Кнопка "Выход"
 
 # Страница конструктора
-CONSTRUCTOR_MENU_INGREDIENTS =(By.CLASS_NAME,'BurgerIngredients_ingredients__menuContainer__Xu3Mo')
+CONSTRUCTOR_MENU_INGREDIENTS = (By.XPATH, './/div[contains(@class, "logo")]/a')
 CONSTRUCTOR_BUNS_BUTTON = (By.XPATH,'.//span[contains(text(),"Булки")]/parent::div') # Кнопка перехода в раздел "Булки"
 CONSTRUCTOR_SOUSE_BUTTON = (By.XPATH,'.//span[contains(text(),"Соусы")]/parent::div') # Кнопка перехода в раздел "Соусы"
 CONSTRUCTOR_TOPPING_BUTTON = (By.XPATH,'.//span[contains(text(),"Начинки")]/parent::div') # Кнопка перехода в раздел "Начинки"

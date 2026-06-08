@@ -4,8 +4,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 import locators as loc
 
-class SwitchingBetweenSections:
-    
+class TestSwitchingBetweenSections:
+
     @pytest.mark.parametrize('button_locator_name, heading_locator_name', [
         ('CONSTRUCTOR_BUNS_BUTTON', 'CONSTRUCTOR_BUNS_HEADING'),
         ('CONSTRUCTOR_SOUSE_BUTTON', 'CONSTRUCTOR_SOUSE_HEADING'),

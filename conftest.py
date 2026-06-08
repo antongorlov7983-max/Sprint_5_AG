@@ -10,7 +10,6 @@ def driver():
     """Фикстура драйвера"""
     driver = webdriver.Chrome()
     driver.maximize_window()
-    driver.implicitly_wait(5)
     yield driver
     driver.quit()
 

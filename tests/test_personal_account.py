@@ -4,8 +4,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 import locators as loc
 
-class PersonalAccount:
-    
+class TestPersonalAccount:
+
     def test_click_through_to_personal_account(self, login, base_url):
         driver = login
         
